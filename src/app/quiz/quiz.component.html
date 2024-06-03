@@ -1,0 +1,23 @@
+<div *ngIf="!quizFinished; else quizEnd">
+  <div [@questionAnimation]>
+    <h2>{{ question.englishWord }}</h2>
+    <div *ngFor="let answer of answers">
+      <button 
+        [ngClass]="{
+          'neutral': !answerSubmitted,
+          'correct': answerSubmitted && answer === question.koreanWord, 
+          'incorrect': answerSubmitted && answer === clickedAnswer && !isCorrect
+        }" 
+        (click)="submitAnswer(answer)"
+        [disabled]="answerSubmitted"> <!-- Disable buttons after submission -->
+        {{ answer }}
+      </button>
+    </div>
+  </div>
+  <button *ngIf="showNextButton" class="next" (click)="nextQuestion()">{{ nextButtonText }}</button>
+</div>
+<ng-template #quizEnd>
+  <h2>Quiz Finished!</h2>
+  <p>Your score: {{ quizService.getScore() }} / 20</p>
+  <button (click)="restartQuiz()">Restart Quiz</button>
+</ng-template>

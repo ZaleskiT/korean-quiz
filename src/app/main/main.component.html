@@ -1,0 +1,6 @@
+<h1>Korean Quiz</h1>
+<label for="category">Select Category:</label>
+<select id="category" [(ngModel)]="selectedCategoryMain">
+  <option *ngFor="let category of categories" [value]="category.id">{{category.name}}</option>
+</select>
+<button (click)="startQuiz()">Start Quiz</button>
