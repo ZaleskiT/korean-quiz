@@ -1,7 +1,7 @@
 <div *ngIf="!quizFinished; else quizEnd">
   <div [@questionAnimation]>
     <h2>{{ question.englishWord }}</h2>
-    <div *ngFor="let answer of answers">
+    <div *ngFor="let answer of answers" class="answer-container">
       <button 
         [ngClass]="{
           'neutral': !answerSubmitted,
@@ -12,6 +12,7 @@
         [disabled]="answerSubmitted"> <!-- Disable buttons after submission -->
         {{ answer }}
       </button>
+      <button class="tts-button" (click)="readAnswer(answer)">🔊</button> <!-- TTS button -->
     </div>
   </div>
   <button *ngIf="showNextButton" class="next" (click)="nextQuestion()">{{ nextButtonText }}</button>

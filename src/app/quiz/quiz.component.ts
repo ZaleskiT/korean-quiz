@@ -3,6 +3,7 @@ import { QuizService} from '../quiz.service';
 import { Vocabulary, vocabularyList } from '../data';
 import { Router } from '@angular/router';
 import { trigger, transition, style, animate } from '@angular/animations';
+import { TtsService } from '../tts.service'; 
 
 @Component({
   selector: 'app-quiz',
@@ -30,7 +31,7 @@ export class QuizComponent implements OnInit {
   answerSubmitted: boolean = false; // Track if an answer is submitted
   clickedAnswer: string = ''; // Track the clicked answer
 
-  constructor(public quizService: QuizService, private router: Router) { }
+  constructor(public quizService: QuizService, private router: Router, private ttsService: TtsService) { }
 
   ngOnInit() {
     this.loadQuestion();
@@ -82,5 +83,9 @@ export class QuizComponent implements OnInit {
   restartQuiz() {
     this.quizService.startQuiz(1); // Reset the quiz state
     this.router.navigate(['']); // Navigate back to the main component
+  }
+
+  readAnswer(answer: string) {
+    this.ttsService.speak(answer); // Use TTS service to read the answer
   }
 }
