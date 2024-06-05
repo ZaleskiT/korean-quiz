@@ -34,7 +34,12 @@ export class QuizComponent implements OnInit {
   constructor(public quizService: QuizService, private router: Router, private ttsService: TtsService) { }
 
   ngOnInit() {
-    this.loadQuestion();
+    if (!this.quizService.getSelectedCategory()) {
+      // Redirect to main component if no category is selected
+      this.router.navigate(['/main']);
+    } else {
+      this.loadQuestion();
+    }
   }
 
   loadQuestion() {

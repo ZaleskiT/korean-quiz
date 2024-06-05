@@ -36,6 +36,10 @@ export class QuizService {
     return this.questions[this.currentQuestionIndex];
   }
 
+  getSelectedCategory(): Number {
+    return this.selectedCategory;
+  }
+
   checkAnswer(selectedAnswer: string): boolean {
     const currentQuestion = this.getQuestion();
     const isCorrect = currentQuestion.koreanWord === selectedAnswer;

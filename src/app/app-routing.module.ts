@@ -4,8 +4,10 @@ import { MainComponent } from './main/main.component';
 import { QuizComponent } from './quiz/quiz.component';
 
 const routes: Routes = [
-  { path: '', component: MainComponent },
-  { path: 'quiz', component: QuizComponent }
+  { path: '', redirectTo: '/main', pathMatch: 'full' }, // Default route
+  { path: 'main', component: MainComponent },
+  { path: 'quiz', component: QuizComponent },
+  { path: '**', redirectTo: '/main' } // Fallback route
 ];
 
 @NgModule({
