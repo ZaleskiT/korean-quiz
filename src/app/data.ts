@@ -9,7 +9,8 @@ export interface Vocabulary {
     StandaloneWords = 1,
     L1P1,
     L1P2,
-    L1P3
+    L1P3,
+    L1P4
   }
   
   export const vocabularyList: Vocabulary[] = [
@@ -243,5 +244,39 @@ export interface Vocabulary {
     { id: 228, categoryId: Category.L1P3, englishWord: 'Hard hat', koreanWord: '안전모' },
     { id: 229, categoryId: Category.L1P3, englishWord: 'Tray', koreanWord: '쟁반' },
     { id: 230, categoryId: Category.L1P3, englishWord: 'Food', koreanWord: '음식' },
-    { id: 231, categoryId: Category.L1P3, englishWord: 'Weather', koreanWord: '날씨' }
+    { id: 231, categoryId: Category.L1P3, englishWord: 'Weather', koreanWord: '날씨' },
+    { id: 232, categoryId: Category.L1P4, englishWord: 'Cheap', koreanWord: '싸다' },
+    { id: 233, categoryId: Category.L1P4, englishWord: 'Expensive', koreanWord: '비싸다' },
+    { id: 234, categoryId: Category.L1P4, englishWord: 'Many', koreanWord: '많다' },
+    { id: 235, categoryId: Category.L1P4, englishWord: 'Few', koreanWord: '적다' },
+    { id: 236, categoryId: Category.L1P4, englishWord: 'Big', koreanWord: '크다' },
+    { id: 237, categoryId: Category.L1P4, englishWord: 'Small', koreanWord: '작다' },
+    { id: 238, categoryId: Category.L1P4, englishWord: 'Delicious', koreanWord: '맛있다' },
+    { id: 239, categoryId: Category.L1P4, englishWord: 'Tasteless', koreanWord: '맛없다' },
+    { id: 240, categoryId: Category.L1P4, englishWord: 'Difficult', koreanWord: '어렵다' },
+    { id: 241, categoryId: Category.L1P4, englishWord: 'Easy', koreanWord: '쉽다' },
+    { id: 242, categoryId: Category.L1P4, englishWord: 'Cold', koreanWord: '춥다' },
+    { id: 243, categoryId: Category.L1P4, englishWord: 'Hot', koreanWord: '덥다' },
+    { id: 244, categoryId: Category.L1P4, englishWord: 'Interesting', koreanWord: '재미있다' },
+    { id: 245, categoryId: Category.L1P4, englishWord: 'Boring', koreanWord: '재미없다' },
+    { id: 246, categoryId: Category.L1P4, englishWord: 'Good', koreanWord: '좋다' },
+    { id: 247, categoryId: Category.L1P4, englishWord: 'Bad', koreanWord: '나쁘다' },
+    { id: 248, categoryId: Category.L1P4, englishWord: 'Pretty', koreanWord: '예쁘다' },
+    { id: 249, categoryId: Category.L1P4, englishWord: 'Busy', koreanWord: '바쁘다' },
+    { id: 250, categoryId: Category.L1P4, englishWord: 'Sick', koreanWord: '아프다' },
+    { id: 251, categoryId: Category.L1P4, englishWord: 'Hungry', koreanWord: '배가 고프다' },
+    { id: 252, categoryId: Category.L1P4, englishWord: 'Cook hometown food', koreanWord: '고향 음식을 요리하다' },
+    { id: 253, categoryId: Category.L1P4, englishWord: 'Read a book', koreanWord: '책을 읽다' },
+    { id: 254, categoryId: Category.L1P4, englishWord: 'Study Korean', koreanWord: '한국어를 공부하다' },
+    { id: 255, categoryId: Category.L1P4, englishWord: 'Watch TV', koreanWord: '텔레비전을 보다' },
+    { id: 256, categoryId: Category.L1P4, englishWord: 'Drink coffee', koreanWord: '커피를 마시다' },
+    { id: 257, categoryId: Category.L1P4, englishWord: 'Clean the room', koreanWord: '방을 청소하다' },
+    { id: 258, categoryId: Category.L1P4, englishWord: 'Eat bread', koreanWord: '빵을 먹다' },
+    { id: 259, categoryId: Category.L1P4, englishWord: 'Meet a friend', koreanWord: '친구를 만나다' },
+    { id: 260, categoryId: Category.L1P4, englishWord: 'Buy clothes', koreanWord: '옷을 사다' },
+    { id: 261, categoryId: Category.L1P4, englishWord: 'Work', koreanWord: '일하다' },
+    { id: 262, categoryId: Category.L1P4, englishWord: 'Sleep', koreanWord: '자다' },
+    { id: 263, categoryId: Category.L1P4, englishWord: 'Exercise', koreanWord: '운동하다' },
+    { id: 264, categoryId: Category.L1P4, englishWord: 'Students', koreanWord: '학생들' },
+    { id: 265, categoryId: Category.L1P4, englishWord: 'YouTube', koreanWord: '유튜브' }
   ];
