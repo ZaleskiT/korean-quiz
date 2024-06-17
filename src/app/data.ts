@@ -10,7 +10,8 @@ export interface Vocabulary {
     L1P1,
     L1P2,
     L1P3,
-    L1P4
+    L1P4,
+    L1P5
   }
   
   export const vocabularyList: Vocabulary[] = [
@@ -277,5 +278,38 @@ export interface Vocabulary {
     { id: 261, categoryId: Category.L1P4, englishWord: 'Other', koreanWord: '기타' },
     { id: 262, categoryId: Category.L1P4, englishWord: 'Weekend', koreanWord: '주말' },
     { id: 263, categoryId: Category.L1P4, englishWord: 'Culture center', koreanWord: '문화 센터' },
-    { id: 264, categoryId: Category.L1P4, englishWord: 'To learn', koreanWord: '배우다' }
+    { id: 264, categoryId: Category.L1P4, englishWord: 'To learn', koreanWord: '배우다' },
+    { id: 265, categoryId: Category.L1P5, englishWord: 'What month', koreanWord: '몇 월' },
+    { id: 266, categoryId: Category.L1P5, englishWord: 'What day', koreanWord: '며칠' },
+    { id: 267, categoryId: Category.L1P5, englishWord: 'Zero', koreanWord: '영/공' },
+    { id: 268, categoryId: Category.L1P5, englishWord: 'One', koreanWord: '일' },
+    { id: 269, categoryId: Category.L1P5, englishWord: 'Two', koreanWord: '이' },
+    { id: 270, categoryId: Category.L1P5, englishWord: 'Three', koreanWord: '삼' },
+    { id: 271, categoryId: Category.L1P5, englishWord: 'Four', koreanWord: '사' },
+    { id: 272, categoryId: Category.L1P5, englishWord: 'Five', koreanWord: '오' },
+    { id: 273, categoryId: Category.L1P5, englishWord: 'Six', koreanWord: '육' },
+    { id: 274, categoryId: Category.L1P5, englishWord: 'Seven', koreanWord: '칠' },
+    { id: 275, categoryId: Category.L1P5, englishWord: 'Eight', koreanWord: '팔' },
+    { id: 276, categoryId: Category.L1P5, englishWord: 'Nine', koreanWord: '구' },
+    { id: 277, categoryId: Category.L1P5, englishWord: 'Ten', koreanWord: '십' },
+    { id: 278, categoryId: Category.L1P5, englishWord: 'Twenty', koreanWord: '이십' },
+    { id: 279, categoryId: Category.L1P5, englishWord: 'Thirty', koreanWord: '삼십' },
+    { id: 280, categoryId: Category.L1P5, englishWord: 'Today', koreanWord: '오늘' },
+    { id: 281, categoryId: Category.L1P5, englishWord: 'Tomorrow', koreanWord: '내일' },
+    { id: 282, categoryId: Category.L1P5, englishWord: 'Yesterday', koreanWord: '어제' },
+    { id: 283, categoryId: Category.L1P5, englishWord: 'Last week', koreanWord: '지난주' },
+    { id: 284, categoryId: Category.L1P5, englishWord: 'This week', koreanWord: '이번 주' },
+    { id: 285, categoryId: Category.L1P5, englishWord: 'Next week', koreanWord: '다음 주' },
+    { id: 286, categoryId: Category.L1P5, englishWord: 'Day of the week', koreanWord: '요일' },
+    { id: 287, categoryId: Category.L1P5, englishWord: 'Monday', koreanWord: '월요일' },
+    { id: 288, categoryId: Category.L1P5, englishWord: 'Tuesday', koreanWord: '화요일' },
+    { id: 289, categoryId: Category.L1P5, englishWord: 'Wednesday', koreanWord: '수요일' },
+    { id: 290, categoryId: Category.L1P5, englishWord: 'Thursday', koreanWord: '목요일' },
+    { id: 291, categoryId: Category.L1P5, englishWord: 'Friday', koreanWord: '금요일' },
+    { id: 292, categoryId: Category.L1P5, englishWord: 'Saturday', koreanWord: '토요일' },
+    { id: 293, categoryId: Category.L1P5, englishWord: 'Sunday', koreanWord: '일요일' },
+    { id: 294, categoryId: Category.L1P5, englishWord: 'Doctor', koreanWord: '의사' },
+    { id: 295, categoryId: Category.L1P5, englishWord: 'Building', koreanWord: '빌딩' },
+    { id: 296, categoryId: Category.L1P5, englishWord: '3rd floor, 17th room', koreanWord: '(3)층 (17)호' },
+    { id: 297, categoryId: Category.L1P5, englishWord: 'Business card', koreanWord: '명함' }
   ];
