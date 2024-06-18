@@ -275,7 +275,7 @@ export interface Vocabulary {
     { id: 258, categoryId: Category.L1P4, englishWord: 'Park', koreanWord: '공원' },
     { id: 259, categoryId: Category.L1P4, englishWord: 'Very', koreanWord: '아주' },
     { id: 260, categoryId: Category.L1P4, englishWord: 'Husband', koreanWord: '남편' },
-    { id: 261, categoryId: Category.L1P4, englishWord: 'Other', koreanWord: '기타' },
+    { id: 261, categoryId: Category.L1P4, englishWord: 'Guitar', koreanWord: '기타' },
     { id: 262, categoryId: Category.L1P4, englishWord: 'Weekend', koreanWord: '주말' },
     { id: 263, categoryId: Category.L1P4, englishWord: 'Culture center', koreanWord: '문화 센터' },
     { id: 264, categoryId: Category.L1P4, englishWord: 'To learn', koreanWord: '배우다' },
