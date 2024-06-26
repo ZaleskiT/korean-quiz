@@ -13,7 +13,8 @@ export interface Vocabulary {
     L1P4,
     L1P5,
     L1P6,
-    L1P7
+    L1P7,
+    L1P8
   }
   
   export const vocabularyList: Vocabulary[] = [
@@ -389,5 +390,31 @@ export interface Vocabulary {
     { id: 370, categoryId: Category.L1P7, englishWord: 'Write your name', koreanWord: '이름을 쓰세요' },
     { id: 371, categoryId: Category.L1P7, englishWord: 'Please give me more side dishes', koreanWord: '반찬 좀 더 주세요' },
     { id: 372, categoryId: Category.L1P7, englishWord: 'Please give me three servings of bulgogi', koreanWord: '불고기 3인분 주세요' },
-    { id: 373, categoryId: Category.L1P7, englishWord: 'Please give me some water', koreanWord: '물 좀 주세요' }
+    { id: 373, categoryId: Category.L1P7, englishWord: 'Please give me some water', koreanWord: '물 좀 주세요' },
+    { id: 374, categoryId: Category.L1P8, englishWord: 'Large', koreanWord: '대' },
+    { id: 375, categoryId: Category.L1P8, englishWord: 'Cup', koreanWord: '잔' },
+    { id: 376, categoryId: Category.L1P8, englishWord: 'Sheet', koreanWord: '장' },
+    { id: 377, categoryId: Category.L1P8, englishWord: 'Book', koreanWord: '권' },
+    { id: 378, categoryId: Category.L1P8, englishWord: 'Animal', koreanWord: '마리' },
+    { id: 379, categoryId: Category.L1P8, englishWord: 'Person', koreanWord: '명' },
+    { id: 380, categoryId: Category.L1P8, englishWord: 'Piece', koreanWord: '개' },
+    { id: 381, categoryId: Category.L1P8, englishWord: 'Slice, piece', koreanWord: '조각' },
+    { id: 382, categoryId: Category.L1P8, englishWord: 'Bottle', koreanWord: '병' },
+    { id: 383, categoryId: Category.L1P8, englishWord: 'Water', koreanWord: '물' },
+    { id: 384, categoryId: Category.L1P8, englishWord: 'Coffee', koreanWord: '커피' },
+    { id: 385, categoryId: Category.L1P8, englishWord: 'Puppy', koreanWord: '강아지' },
+    { id: 386, categoryId: Category.L1P8, englishWord: 'Magazine', koreanWord: '잡지' },
+    { id: 387, categoryId: Category.L1P8, englishWord: 'Photo', koreanWord: '사진' },
+    { id: 388, categoryId: Category.L1P8, englishWord: 'Laptop', koreanWord: '노트북' },
+    { id: 389, categoryId: Category.L1P8, englishWord: 'Green tea', koreanWord: '녹차' },
+    { id: 390, categoryId: Category.L1P8, englishWord: 'Vegetable', koreanWord: '채소' },
+    { id: 391, categoryId: Category.L1P8, englishWord: 'Vacuum cleaner', koreanWord: '청소기' },
+    { id: 392, categoryId: Category.L1P8, englishWord: 'Fast', koreanWord: '빠르다' },
+    { id: 393, categoryId: Category.L1P8, englishWord: 'Envelope, bag', koreanWord: '봉투' },
+    { id: 394, categoryId: Category.L1P8, englishWord: 'Chicken', koreanWord: '닭' },
+    { id: 395, categoryId: Category.L1P8, englishWord: 'Chicken meat', koreanWord: '닭고기' },
+    { id: 396, categoryId: Category.L1P8, englishWord: 'Egg', koreanWord: '계란' },
+    { id: 397, categoryId: Category.L1P8, englishWord: 'Discount', koreanWord: '할인' },
+    { id: 398, categoryId: Category.L1P8, englishWord: 'Product', koreanWord: '상품' }
+
   ];

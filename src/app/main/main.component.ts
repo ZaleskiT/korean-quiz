@@ -10,6 +10,7 @@ import { Category } from '../data';
 })
 export class MainComponent {
   categories = [
+    { id: 9, name: 'Level 1 Class P.8 칫솔하고 치약을 삽니다' },
     { id: 8, name: 'Level 1 Class P.7 김치찌개 하나 주세요' },
     { id: 7, name: 'Level 1 Class P.6 9시부터 6시까지 일해요' },
     { id: 6, name: 'Level 1 Class P.5 오늘은 5월 5일이에요' },
@@ -19,7 +20,7 @@ export class MainComponent {
     { id: 2, name: 'Level 1 Class P.1 안녕하세요?' },
     { id: 1, name: 'Level 0 Class' }
   ];
-  selectedCategoryMain: number = 8;
+  selectedCategoryMain: number = 9;
 
   constructor(private quizService: QuizService, private router: Router) { }
 
