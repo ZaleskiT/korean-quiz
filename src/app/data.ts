@@ -14,7 +14,8 @@ export interface Vocabulary {
     L1P5,
     L1P6,
     L1P7,
-    L1P8
+    L1P8,
+    L1P9
   }
   
   export const vocabularyList: Vocabulary[] = [
@@ -415,6 +416,40 @@ export interface Vocabulary {
     { id: 395, categoryId: Category.L1P8, englishWord: 'Chicken meat', koreanWord: '닭고기' },
     { id: 396, categoryId: Category.L1P8, englishWord: 'Egg', koreanWord: '계란' },
     { id: 397, categoryId: Category.L1P8, englishWord: 'Discount', koreanWord: '할인' },
-    { id: 398, categoryId: Category.L1P8, englishWord: 'Product', koreanWord: '상품' }
+    { id: 398, categoryId: Category.L1P8, englishWord: 'Product', koreanWord: '상품' },
+    { id: 399, categoryId: Category.L1P9, englishWord: 'To rest at home', koreanWord: '집에서 쉬다' },
+    { id: 400, categoryId: Category.L1P9, englishWord: 'To clean', koreanWord: '청소를 하다' },
+    { id: 401, categoryId: Category.L1P9, englishWord: 'To do the laundry', koreanWord: '빨래를 하다' },
+    { id: 402, categoryId: Category.L1P9, englishWord: 'To play soccer', koreanWord: '축구를 하다' },
+    { id: 403, categoryId: Category.L1P9, englishWord: 'To go to the mountain', koreanWord: '산에 가다' },
+    { id: 404, categoryId: Category.L1P9, englishWord: 'To take a walk', koreanWord: '산책하다' },
+    { id: 405, categoryId: Category.L1P9, englishWord: 'To meet a friend', koreanWord: '친구를 만나다' },
+    { id: 406, categoryId: Category.L1P9, englishWord: 'To do part-time work', koreanWord: '아르바이트를 하다' },
+    { id: 407, categoryId: Category.L1P9, englishWord: 'To learn Korean', koreanWord: '한국어를 배우다' },
+    { id: 408, categoryId: Category.L1P9, englishWord: 'Park', koreanWord: '공원' },
+    { id: 409, categoryId: Category.L1P9, englishWord: 'To ride a bicycle', koreanWord: '자전거를 타다' },
+    { id: 410, categoryId: Category.L1P9, englishWord: 'To play ball', koreanWord: '공놀이를 하다' },
+    { id: 411, categoryId: Category.L1P9, englishWord: 'Market', koreanWord: '시장' },
+    { id: 412, categoryId: Category.L1P9, englishWord: 'To buy fruit', koreanWord: '과일을 사다' },
+    { id: 413, categoryId: Category.L1P9, englishWord: 'To buy shoes', koreanWord: '신발을 사다' },
+    { id: 414, categoryId: Category.L1P9, englishWord: 'Department store', koreanWord: '백화점' },
+    { id: 415, categoryId: Category.L1P9, englishWord: 'To shop', koreanWord: '쇼핑하다' },
+    { id: 416, categoryId: Category.L1P9, englishWord: 'To eat dinner', koreanWord: '저녁을 먹다' },
+    { id: 417, categoryId: Category.L1P9, englishWord: 'Cafe', koreanWord: '카페' },
+    { id: 418, categoryId: Category.L1P9, englishWord: 'To talk', koreanWord: '이야기를 하다' },
+    { id: 419, categoryId: Category.L1P9, englishWord: 'To drink tea', koreanWord: '차를 마시다' },
+    { id: 420, categoryId: Category.L1P9, englishWord: 'Home', koreanWord: '집' },
+    { id: 421, categoryId: Category.L1P9, englishWord: 'To have a meal', koreanWord: '식사를 하다' },
+    { id: 422, categoryId: Category.L1P9, englishWord: 'To watch television', koreanWord: '텔레비전을 보다' },
+    { id: 423, categoryId: Category.L1P9, englishWord: 'Company', koreanWord: '회사' },
+    { id: 424, categoryId: Category.L1P9, englishWord: 'To work', koreanWord: '일하다' },
+    { id: 425, categoryId: Category.L1P9, englishWord: 'To answer the phone', koreanWord: '전화를 받다' },
+    { id: 426, categoryId: Category.L1P9, englishWord: 'Jeonju', koreanWord: '전주' },
+    { id: 427, categoryId: Category.L1P9, englishWord: 'Hanok village', koreanWord: '한옥 마을' },
+    { id: 428, categoryId: Category.L1P9, englishWord: 'To wear hanbok', koreanWord: '한복을 입다' },
+    { id: 429, categoryId: Category.L1P9, englishWord: 'To walk', koreanWord: '걷다' },
+    { id: 430, categoryId: Category.L1P9, englishWord: 'Bridge', koreanWord: '다리' },
+    { id: 431, categoryId: Category.L1P9, englishWord: 'But', koreanWord: '그렇지만' },
+    { id: 432, categoryId: Category.L1P9, englishWord: 'To be joyful', koreanWord: '즐겁다' }
 
   ];
