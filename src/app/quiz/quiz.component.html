@@ -1,6 +1,7 @@
 <div *ngIf="!quizFinished; else quizEnd">
   <div [@questionAnimation]>
     <h2>{{ question.englishWord }}</h2>
+    <h2>{{ question.chineseWord }}</h2>
     <div *ngFor="let answer of answers" class="answer-container">
       <button 
         [ngClass]="{
