@@ -16,7 +16,8 @@ export interface Vocabulary {
     L1P6,
     L1P7,
     L1P8,
-    L1P9
+    L1P9,
+    L1P10
   }
   
   export const vocabularyList: Vocabulary[] = [
@@ -451,5 +452,30 @@ export interface Vocabulary {
     { id: 429, categoryId: Category.L1P9, englishWord: 'To walk', koreanWord: '걷다', chineseWord: '走路' },
     { id: 430, categoryId: Category.L1P9, englishWord: 'Bridge', koreanWord: '다리', chineseWord: '桥' },
     { id: 431, categoryId: Category.L1P9, englishWord: 'But', koreanWord: '그렇지만', chineseWord: '但是' },
-    { id: 432, categoryId: Category.L1P9, englishWord: 'To be joyful', koreanWord: '즐겁다', chineseWord: '开心' }
+    { id: 432, categoryId: Category.L1P9, englishWord: 'To be joyful', koreanWord: '즐겁다', chineseWord: '开心' },
+    { id: 433, categoryId: Category.L1P10, englishWord: 'Grandmother', koreanWord: '할머니', chineseWord: '奶奶' },
+    { id: 434, categoryId: Category.L1P10, englishWord: 'Grandfather', koreanWord: '할아버지', chineseWord: '爷爷' },
+    { id: 435, categoryId: Category.L1P10, englishWord: 'Maternal grandmother', koreanWord: '외할머니', chineseWord: '外婆' },
+    { id: 436, categoryId: Category.L1P10, englishWord: 'Maternal grandfather', koreanWord: '외할아버지', chineseWord: '外公' },
+    { id: 437, categoryId: Category.L1P10, englishWord: 'Mother (mom)', koreanWord: '어머니(엄마)', chineseWord: '母亲（妈妈）' },
+    { id: 438, categoryId: Category.L1P10, englishWord: 'Father (dad)', koreanWord: '아버지(아빠)', chineseWord: '父亲（爸爸）' },
+    { id: 439, categoryId: Category.L1P10, englishWord: 'Older sister (for females)', koreanWord: '언니', chineseWord: '姐姐（女用）' },
+    { id: 440, categoryId: Category.L1P10, englishWord: 'Older brother (for females)', koreanWord: '오빠', chineseWord: '哥哥（女用）' },
+    { id: 441, categoryId: Category.L1P10, englishWord: 'I', koreanWord: '나', chineseWord: '我' },
+    { id: 442, categoryId: Category.L1P10, englishWord: 'Younger sister', koreanWord: '여동생', chineseWord: '妹妹' },
+    { id: 443, categoryId: Category.L1P10, englishWord: 'Younger brother', koreanWord: '남동생', chineseWord: '弟弟' },
+    { id: 444, categoryId: Category.L1P10, englishWord: 'Older sister (for males)', koreanWord: '누나', chineseWord: '姐姐（男用）' },
+    { id: 445, categoryId: Category.L1P10, englishWord: 'Older brother (for males)', koreanWord: '형', chineseWord: '哥哥（男用）' },
+    { id: 446, categoryId: Category.L1P10, englishWord: 'Honorific language', koreanWord: '높임말', chineseWord: '敬语' },
+    { id: 447, categoryId: Category.L1P10, englishWord: 'Surname', koreanWord: '성함', chineseWord: '姓氏' },
+    { id: 448, categoryId: Category.L1P10, englishWord: 'Age', koreanWord: '연세', chineseWord: '年龄' },
+    { id: 449, categoryId: Category.L1P10, englishWord: 'Birthday', koreanWord: '생신', chineseWord: '生日' },
+    { id: 450, categoryId: Category.L1P10, englishWord: 'Person (honorific)', koreanWord: '분', chineseWord: '位（敬语）' },
+    { id: 451, categoryId: Category.L1P10, englishWord: 'To be (honorific)', koreanWord: '계시다', chineseWord: '在（敬语）' },
+    { id: 452, categoryId: Category.L1P10, englishWord: 'To eat (honorific)', koreanWord: '드시다/잡수시다', chineseWord: '吃（敬语）' },
+    { id: 453, categoryId: Category.L1P10, englishWord: 'To drink (honorific)', koreanWord: '주무시다', chineseWord: '喝（敬语）' },
+    { id: 454, categoryId: Category.L1P10, englishWord: 'To return (honorific)', koreanWord: '돌아가시다', chineseWord: '回去（敬语）' },
+    { id: 455, categoryId: Category.L1P10, englishWord: 'To speak (honorific)', koreanWord: '말씀하시다', chineseWord: '说话（敬语）' },
+    { id: 456, categoryId: Category.L1P10, englishWord: 'Parents', koreanWord: '부모님', chineseWord: '父母' },
+    { id: 457, categoryId: Category.L1P10, englishWord: 'High school student', koreanWord: '고등학생', chineseWord: '高中生' }
 ];
