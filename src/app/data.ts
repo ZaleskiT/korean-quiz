@@ -17,7 +17,8 @@ export interface Vocabulary {
     L1P7,
     L1P8,
     L1P9,
-    L1P10
+    L1P10,
+    L1P11
   }
   
   export const vocabularyList: Vocabulary[] = [
@@ -477,5 +478,25 @@ export interface Vocabulary {
     { id: 454, categoryId: Category.L1P10, englishWord: 'To return (honorific)', koreanWord: '돌아가시다', chineseWord: '回去（敬语）' },
     { id: 455, categoryId: Category.L1P10, englishWord: 'To speak (honorific)', koreanWord: '말씀하시다', chineseWord: '说话（敬语）' },
     { id: 456, categoryId: Category.L1P10, englishWord: 'Parents', koreanWord: '부모님', chineseWord: '父母' },
-    { id: 457, categoryId: Category.L1P10, englishWord: 'High school student', koreanWord: '고등학생', chineseWord: '高中生' }
+    { id: 457, categoryId: Category.L1P10, englishWord: 'High school student', koreanWord: '고등학생', chineseWord: '高中生' },
+    { id: 458, categoryId: Category.L1P11, englishWord: 'To give', koreanWord: '주다', chineseWord: '给' },
+    { id: 459, categoryId: Category.L1P11, englishWord: 'To send', koreanWord: '보내다', chineseWord: '发送' },
+    { id: 460, categoryId: Category.L1P11, englishWord: 'To receive', koreanWord: '받다', chineseWord: '收到' },
+    { id: 461, categoryId: Category.L1P11, englishWord: 'Gift', koreanWord: '선물', chineseWord: '礼物' },
+    { id: 462, categoryId: Category.L1P11, englishWord: 'Invitation', koreanWord: '초대', chineseWord: '邀请' },
+    { id: 463, categoryId: Category.L1P11, englishWord: 'Invitation card', koreanWord: '초대장', chineseWord: '邀请函' },
+    { id: 464, categoryId: Category.L1P11, englishWord: 'Parents\' Day', koreanWord: '어버이날', chineseWord: '父母节' },
+    { id: 465, categoryId: Category.L1P11, englishWord: 'Teacher\'s Day', koreanWord: '스승의 날', chineseWord: '教师节' },
+    { id: 466, categoryId: Category.L1P11, englishWord: 'Graduation ceremony', koreanWord: '졸업식', chineseWord: '毕业典礼' },
+    { id: 467, categoryId: Category.L1P11, englishWord: 'Wedding', koreanWord: '결혼식', chineseWord: '婚礼' },
+    { id: 468, categoryId: Category.L1P11, englishWord: 'To congratulate', koreanWord: '축하하다', chineseWord: '祝贺' },
+    { id: 469, categoryId: Category.L1P11, englishWord: 'To use a card', koreanWord: '카드를 쓰다', chineseWord: '用卡' },
+    { id: 470, categoryId: Category.L1P11, englishWord: 'To sing a song', koreanWord: '노래를 부르다', chineseWord: '唱歌' },
+    { id: 471, categoryId: Category.L1P11, englishWord: 'Cake', koreanWord: '케이크', chineseWord: '蛋糕' },
+    { id: 472, categoryId: Category.L1P11, englishWord: 'Women\'s Day', koreanWord: '여성의 날', chineseWord: '妇女节' },
+    { id: 473, categoryId: Category.L1P11, englishWord: 'Children\'s Day', koreanWord: '어린이날', chineseWord: '儿童节' },
+    { id: 474, categoryId: Category.L1P11, englishWord: 'To feel good', koreanWord: '기분이 좋다', chineseWord: '感觉很好' },
+    { id: 475, categoryId: Category.L1P11, englishWord: 'Bouquet', koreanWord: '꽃다발', chineseWord: '花束' },
+    { id: 476, categoryId: Category.L1P11, englishWord: 'To make a call', koreanWord: '전화를 하다', chineseWord: '拨打电话' },
+    { id: 477, categoryId: Category.L1P11, englishWord: 'To receive a call', koreanWord: '전화를 받다', chineseWord: '接电话' }
 ];
