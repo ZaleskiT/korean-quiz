@@ -1,23 +1,48 @@
-<div *ngIf="!quizFinished; else quizEnd">
-  <div [@questionAnimation]>
-    <h2>{{ question.englishWord }}</h2>
-    <h2>{{ question.chineseWord }}</h2>
-    <div *ngFor="let answer of answers" class="answer-container">
-      <button 
-        [ngClass]="{
-          'neutral': !answerSubmitted,
-          'correct': answerSubmitted && answer === question.koreanWord, 
-          'incorrect': answerSubmitted && answer === clickedAnswer && !isCorrect
-        }" 
-        (click)="submitAnswer(answer)"
-        [disabled]="answerSubmitted"> <!-- Disable buttons after submission -->
-        {{ answer }}
-      </button>
-      <button class="tts-button" (click)="readAnswer(answer)">🔊</button> <!-- TTS button -->
+<div *ngIf="currentQuizMode === 'vocabulary'">
+  <div *ngIf="!quizFinished; else quizEnd">
+    <div [@questionAnimation]>
+      <h2>{{ question.englishWord }}</h2>
+      <h2>{{ question.chineseWord }}</h2>
+      <div *ngFor="let answer of answers" class="answer-container">
+        <button 
+          [ngClass]="{
+            'neutral': !answerSubmitted,
+            'correct': answerSubmitted && answer === question.koreanWord, 
+            'incorrect': answerSubmitted && answer === clickedAnswer && !isCorrect
+          }" 
+          (click)="submitAnswer(answer)"
+          [disabled]="answerSubmitted"> <!-- Disable buttons after submission -->
+          {{ answer }}
+        </button>
+        <button class="tts-button" (click)="readAnswer(answer)">🔊</button> <!-- TTS button -->
+      </div>
     </div>
+    <button *ngIf="showNextButton" class="next" (click)="nextQuestion()">{{ nextButtonText }}</button>
   </div>
-  <button *ngIf="showNextButton" class="next" (click)="nextQuestion()">{{ nextButtonText }}</button>
-</div>
+  </div>
+
+  <div *ngIf="currentQuizMode === 'verb'">
+    <div *ngIf="!quizFinished; else quizEnd">
+      <div [@questionAnimation]>
+        <h2>Verb: {{questionVerb.koreanWord}} ({{questionVerb.englishWord}}, {{questionVerb.chineseWord}})</h2>
+        <h2>Form: {{verbFormName}}</h2>
+        <div *ngFor="let answer of answers" class="answer-container">
+          <button 
+            [ngClass]="{
+              'neutral': !answerSubmitted,
+              'correct': answerSubmitted && answer === correctAnswerString, 
+              'incorrect': answerSubmitted && answer === clickedAnswer && !isCorrect
+            }" 
+            (click)="submitVerbAnswer(answer)"
+            [disabled]="answerSubmitted"> <!-- Disable buttons after submission -->
+            {{ answer }}
+          </button>
+          <button class="tts-button" (click)="readAnswer(answer)">🔊</button> <!-- TTS button -->
+        </div>
+      </div>
+      <button *ngIf="showNextButton" class="next" (click)="nextQuestion()">{{ nextButtonText }}</button>
+    </div>
+    </div>
 <ng-template #quizEnd>
   <h2>Quiz Finished!</h2>
   <p>Your score: {{ quizService.getScore() }} / 20</p>

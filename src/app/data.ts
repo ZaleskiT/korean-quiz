@@ -500,3 +500,414 @@ export interface Vocabulary {
     { id: 476, categoryId: Category.L1P11, englishWord: 'To make a call', koreanWord: '전화를 하다', chineseWord: '拨打电话' },
     { id: 477, categoryId: Category.L1P11, englishWord: 'To receive a call', koreanWord: '전화를 받다', chineseWord: '接电话' }
 ];
+
+export interface Verbs {
+  id: number;
+  englishWord: string;
+  koreanWord: string;
+  chineseWord: string;
+  declarativePresent: string;
+  declarativePast: string;
+  declarativeFuture: string;
+  inquisitivePast: string;
+  imperative: string;
+  wantTo: string;
+  connectiveAnd: string;
+}
+
+export interface VerbForm {
+  id: number;
+  formName: string;
+  key: keyof Verbs;
+}
+
+export const verbForms: VerbForm[] = [
+  { id: 1, formName: 'Declarative Present', key: 'declarativePresent' },
+  { id: 2, formName: 'Declarative Past', key: 'declarativePast' },
+  { id: 3, formName: 'Declarative Future', key: 'declarativeFuture' },
+  { id: 4, formName: 'Inquisitive Past', key: 'inquisitivePast' },
+  { id: 5, formName: 'Imperative', key: 'imperative' },
+  { id: 6, formName: 'Want to', key: 'wantTo' },
+  { id: 7, formName: 'Connective And', key: 'connectiveAnd' }
+];
+
+export const verbsList: Verbs[] = [
+  {
+    id: 1,
+    englishWord: 'write',
+    koreanWord: '쓰다',
+    chineseWord: '写',
+    declarativePresent: '써요',
+    declarativePast: '썼어요',
+    declarativeFuture: '쓸 거예요',
+    inquisitivePast: '썼나요',
+    imperative: '쓰세요',
+    wantTo: '쓰고 싶어요',
+    connectiveAnd: '쓰고'
+  },
+  {
+    id: 2,
+    englishWord: 'rest',
+    koreanWord: '쉬다',
+    chineseWord: '休息',
+    declarativePresent: '쉬어요',
+    declarativePast: '쉬었어요',
+    declarativeFuture: '쉴 거예요',
+    inquisitivePast: '쉬었나요',
+    imperative: '쉬세요',
+    wantTo: '쉬고 싶어요',
+    connectiveAnd: '쉬고'
+  },
+  {
+    id: 3,
+    englishWord: 'watch',
+    koreanWord: '보다',
+    chineseWord: '看',
+    declarativePresent: '봐요',
+    declarativePast: '봤어요',
+    declarativeFuture: '볼 거예요',
+    inquisitivePast: '봤나요',
+    imperative: '보세요',
+    wantTo: '보고 싶어요',
+    connectiveAnd: '보고'
+  },
+  {
+    id: 4,
+    englishWord: 'study',
+    koreanWord: '공부하다',
+    chineseWord: '学习',
+    declarativePresent: '공부해요',
+    declarativePast: '공부했어요',
+    declarativeFuture: '공부할 거예요',
+    inquisitivePast: '공부했나요',
+    imperative: '공부하세요',
+    wantTo: '공부하고 싶어요',
+    connectiveAnd: '공부하고'
+  },
+  {
+    id: 5,
+    englishWord: 'cook',
+    koreanWord: '요리하다',
+    chineseWord: '做饭',
+    declarativePresent: '요리해요',
+    declarativePast: '요리했어요',
+    declarativeFuture: '요리할 거예요',
+    inquisitivePast: '요리했나요',
+    imperative: '요리하세요',
+    wantTo: '요리하고 싶어요',
+    connectiveAnd: '요리하고'
+  },
+  {
+    id: 6,
+    englishWord: 'eat',
+    koreanWord: '먹다',
+    chineseWord: '吃',
+    declarativePresent: '먹어요',
+    declarativePast: '먹었어요',
+    declarativeFuture: '먹을 거예요',
+    inquisitivePast: '먹었나요',
+    imperative: '드세요',
+    wantTo: '먹고 싶어요',
+    connectiveAnd: '먹고'
+  },
+  {
+    id: 7,
+    englishWord: 'meet',
+    koreanWord: '만나다',
+    chineseWord: '见面',
+    declarativePresent: '만나요',
+    declarativePast: '만났어요',
+    declarativeFuture: '만날 거예요',
+    inquisitivePast: '만났나요',
+    imperative: '만나세요',
+    wantTo: '만나고 싶어요',
+    connectiveAnd: '만나고'
+  },
+  {
+    id: 8,
+    englishWord: 'buy',
+    koreanWord: '사다',
+    chineseWord: '买',
+    declarativePresent: '사요',
+    declarativePast: '샀어요',
+    declarativeFuture: '살 거예요',
+    inquisitivePast: '샀나요',
+    imperative: '사세요',
+    wantTo: '사고 싶어요',
+    connectiveAnd: '사고'
+  },
+  {
+    id: 9,
+    englishWord: 'work',
+    koreanWord: '일하다',
+    chineseWord: '工作',
+    declarativePresent: '일해요',
+    declarativePast: '일했어요',
+    declarativeFuture: '일할 거예요',
+    inquisitivePast: '일했나요',
+    imperative: '일하세요',
+    wantTo: '일하고 싶어요',
+    connectiveAnd: '일하고'
+  },
+  {
+    id: 10,
+    englishWord: 'sleep',
+    koreanWord: '자다',
+    chineseWord: '睡觉',
+    declarativePresent: '자요',
+    declarativePast: '잤어요',
+    declarativeFuture: '잘 거예요',
+    inquisitivePast: '잤나요',
+    imperative: '주무세요',
+    wantTo: '자고 싶어요',
+    connectiveAnd: '자고'
+  },
+  {
+    id: 11,
+    englishWord: 'exercise',
+    koreanWord: '운동하다',
+    chineseWord: '锻炼',
+    declarativePresent: '운동해요',
+    declarativePast: '운동했어요',
+    declarativeFuture: '운동할 거예요',
+    inquisitivePast: '운동했나요',
+    imperative: '운동하세요',
+    wantTo: '운동하고 싶어요',
+    connectiveAnd: '운동하고'
+  },
+  {
+    id: 12,
+    englishWord: 'learn',
+    koreanWord: '배우다',
+    chineseWord: '学习',
+    declarativePresent: '배워요',
+    declarativePast: '배웠어요',
+    declarativeFuture: '배울 거예요',
+    inquisitivePast: '배웠나요',
+    imperative: '배우세요',
+    wantTo: '배우고 싶어요',
+    connectiveAnd: '배우고'
+  },
+  {
+    id: 13,
+    englishWord: 'wash',
+    koreanWord: '씻다',
+    chineseWord: '洗',
+    declarativePresent: '씻어요',
+    declarativePast: '씻었어요',
+    declarativeFuture: '씻을 거예요',
+    inquisitivePast: '씻었나요',
+    imperative: '씻으세요',
+    wantTo: '씻고 싶어요',
+    connectiveAnd: '씻고'
+  },
+  {
+    id: 14,
+    englishWord: 'put on clothes',
+    koreanWord: '옷을 입다',
+    chineseWord: '穿衣服',
+    declarativePresent: '옷을 입어요',
+    declarativePast: '옷을 입었어요',
+    declarativeFuture: '옷을 입을 거예요',
+    inquisitivePast: '옷을 입었나요',
+    imperative: '옷을 입으세요',
+    wantTo: '옷을 입고 싶어요',
+    connectiveAnd: '옷을 입고'
+  },
+  {
+    id: 15,
+    englishWord: 'order',
+    koreanWord: '주문하다',
+    chineseWord: '点菜',
+    declarativePresent: '주문해요',
+    declarativePast: '주문했어요',
+    declarativeFuture: '주문할 거예요',
+    inquisitivePast: '주문했나요',
+    imperative: '주문하세요',
+    wantTo: '주문하고 싶어요',
+    connectiveAnd: '주문하고'
+  },
+  {
+    id: 16,
+    englishWord: 'clean',
+    koreanWord: '청소하다',
+    chineseWord: '打扫',
+    declarativePresent: '청소해요',
+    declarativePast: '청소했어요',
+    declarativeFuture: '청소할 거예요',
+    inquisitivePast: '청소했나요',
+    imperative: '청소하세요',
+    wantTo: '청소하고 싶어요',
+    connectiveAnd: '청소하고'
+  },
+  {
+    id: 17,
+    englishWord: 'play',
+    koreanWord: '놀다',
+    chineseWord: '玩',
+    declarativePresent: '놀아요',
+    declarativePast: '놀았어요',
+    declarativeFuture: '놀 거예요',
+    inquisitivePast: '놀았나요',
+    imperative: '노세요',
+    wantTo: '놀고 싶어요',
+    connectiveAnd: '놀고'
+  },
+  {
+    id: 18,
+    englishWord: 'drink',
+    koreanWord: '마시다',
+    chineseWord: '喝',
+    declarativePresent: '마셔요',
+    declarativePast: '마셨어요',
+    declarativeFuture: '마실 거예요',
+    inquisitivePast: '마셨어요',
+    imperative: '드세요',
+    wantTo: '마시고 싶어요',
+    connectiveAnd: '마시고'
+  },
+  {
+    id: 19,
+    englishWord: 'to be (honorific)',
+    koreanWord: '계시다',
+    chineseWord: '在（敬语）',
+    declarativePresent: '계세요',
+    declarativePast: '계셨어요',
+    declarativeFuture: '계실 거예요',
+    inquisitivePast: '계셨어요',
+    imperative: '계세요',
+    wantTo: '계시고 싶어요',
+    connectiveAnd: '계시고'
+  },
+  {
+    id: 20,
+    englishWord: 'eat (honorific)',
+    koreanWord: '드시다',
+    chineseWord: '吃（敬语）',
+    declarativePresent: '드세요',
+    declarativePast: '드셨어요',
+    declarativeFuture: '드실 거예요',
+    inquisitivePast: '드셨어요',
+    imperative: '드세요',
+    wantTo: '드시고 싶어요',
+    connectiveAnd: '드시고'
+  },
+  {
+    id: 21,
+    englishWord: 'drink (honorific)',
+    koreanWord: '드시다',
+    chineseWord: '喝（敬语）',
+    declarativePresent: '드세요',
+    declarativePast: '드셨어요',
+    declarativeFuture: '드실 거예요',
+    inquisitivePast: '드셨어요',
+    imperative: '드세요',
+    wantTo: '드시고 싶어요',
+    connectiveAnd: '드시고'
+  },
+  {
+    id: 22,
+    englishWord: 'return (honorific)',
+    koreanWord: '돌아가시다',
+    chineseWord: '回去（敬语）',
+    declarativePresent: '돌아가세요',
+    declarativePast: '돌아가셨어요',
+    declarativeFuture: '돌아가실 거예요',
+    inquisitivePast: '돌아가셨어요',
+    imperative: '돌아가세요',
+    wantTo: '돌아가고 싶어요',
+    connectiveAnd: '돌아가고'
+  },
+  {
+    id: 23,
+    englishWord: 'speak (honorific)',
+    koreanWord: '말씀하시다',
+    chineseWord: '说话（敬语）',
+    declarativePresent: '말씀하세요',
+    declarativePast: '말씀하셨어요',
+    declarativeFuture: '말씀하실 거예요',
+    inquisitivePast: '말씀하셨어요',
+    imperative: '말씀하세요',
+    wantTo: '말씀하고 싶어요',
+    connectiveAnd: '말씀하고'
+  },
+  {
+    id: 24,
+    englishWord: 'give',
+    koreanWord: '주다',
+    chineseWord: '给',
+    declarativePresent: '줘요',
+    declarativePast: '줬어요',
+    declarativeFuture: '줄 거예요',
+    inquisitivePast: '줬어요',
+    imperative: '주세요',
+    wantTo: '주고 싶어요',
+    connectiveAnd: '주고'
+  },
+  {
+    id: 25,
+    englishWord: 'send',
+    koreanWord: '보내다',
+    chineseWord: '发送',
+    declarativePresent: '보내요',
+    declarativePast: '보냈어요',
+    declarativeFuture: '보낼 거예요',
+    inquisitivePast: '보냈어요',
+    imperative: '보내세요',
+    wantTo: '보내고 싶어요',
+    connectiveAnd: '보내고'
+  },
+  {
+    id: 26,
+    englishWord: 'receive',
+    koreanWord: '받다',
+    chineseWord: '接收',
+    declarativePresent: '받아요',
+    declarativePast: '받았어요',
+    declarativeFuture: '받을 거예요',
+    inquisitivePast: '받았어요',
+    imperative: '받으세요',
+    wantTo: '받고 싶어요',
+    connectiveAnd: '받고'
+  },
+  {
+    id: 27,
+    englishWord: 'invite',
+    koreanWord: '초대하다',
+    chineseWord: '邀请',
+    declarativePresent: '초대해요',
+    declarativePast: '초대했어요',
+    declarativeFuture: '초대할 거예요',
+    inquisitivePast: '초대했어요',
+    imperative: '초대하세요',
+    wantTo: '초대하고 싶어요',
+    connectiveAnd: '초대하고'
+  },
+  {
+    id: 28,
+    englishWord: 'congratulate',
+    koreanWord: '축하하다',
+    chineseWord: '祝贺',
+    declarativePresent: '축하해요',
+    declarativePast: '축하했어요',
+    declarativeFuture: '축하할 거예요',
+    inquisitivePast: '축하했어요',
+    imperative: '축하하세요',
+    wantTo: '축하하고 싶어요',
+    connectiveAnd: '축하하고'
+  },
+  {
+    id: 29,
+    englishWord: 'sing',
+    koreanWord: '노래를 부르다',
+    chineseWord: '唱歌',
+    declarativePresent: '노래를 불러요',
+    declarativePast: '노래를 불렀어요',
+    declarativeFuture: '노래를 부를 거예요',
+    inquisitivePast: '노래를 불렀어요',
+    imperative: '노래를 부르세요',
+    wantTo: '노래를 부르고 싶어요',
+    connectiveAnd: '노래를 부르고'
+  }
+];
+

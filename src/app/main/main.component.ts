@@ -27,8 +27,8 @@ export class MainComponent {
 
   constructor(private quizService: QuizService, private router: Router) { }
 
-  startQuiz() {
-    this.quizService.startQuiz(Number(this.selectedCategoryMain));
+  startQuiz(currentQuizMode: string) {
+    this.quizService.startQuiz(Number(this.selectedCategoryMain), currentQuizMode);
     this.router.navigate(['/quiz']);
   }
 }

@@ -1,5 +1,5 @@
 import { Injectable } from '@angular/core';
-import { Vocabulary, vocabularyList } from './data';
+import { Verbs, verbsList, verbForms, VerbForm, Vocabulary, vocabularyList } from './data';
 
 @Injectable({
   providedIn: 'root'
@@ -9,19 +9,35 @@ export class QuizService {
   private correctAnswers: number = 0;
   private selectedCategory: number = 0;
   private questions: Vocabulary[] = [];
+  private questionsVerb: Verbs[] = [];
+  private verbForms = verbForms;
+  private currentQuizMode = 'vocabulary';
 
   constructor() { }
 
-  startQuiz(categoryId: number) {
+  startQuiz(categoryId: number, quizMode: string) {
     this.currentQuestionIndex = 0;
     this.correctAnswers = 0;
     this.selectedCategory = categoryId;
-    this.questions = this.getShuffledQuestions();
+    this.currentQuizMode = quizMode;
+    if (this.currentQuizMode === 'vocabulary') {
+      this.questions = this.getShuffledQuestions();
+    } else {
+      this.questionsVerb = this.getShuffledVerbQuestions();
+    }
+  }
+
+  getQuizMode() {
+    return this.currentQuizMode;
   }
 
   getShuffledQuestions(): Vocabulary[] {
     let filteredVocabulary = vocabularyList.filter(item => item.categoryId === this.selectedCategory);
     return this.shuffleArray(filteredVocabulary).slice(0, 20);
+  }
+
+  getShuffledVerbQuestions(): Verbs[] {
+    return this.shuffleArray(verbsList).slice(0, 20);
   }
 
   shuffleArray(array: any[]): any[] {
@@ -36,6 +52,10 @@ export class QuizService {
     return this.questions[this.currentQuestionIndex];
   }
 
+  getVerbQuestion(): Verbs {
+    return this.questionsVerb[this.currentQuestionIndex];
+  }
+
   getSelectedCategory(): Number {
     return this.selectedCategory;
   }
@@ -43,6 +63,26 @@ export class QuizService {
   checkAnswer(selectedAnswer: string): boolean {
     const currentQuestion = this.getQuestion();
     const isCorrect = currentQuestion.koreanWord === selectedAnswer;
+    if (isCorrect) this.correctAnswers++;
+    return isCorrect;
+  }
+
+  getVerbForm(formID: number): VerbForm[] {
+    return this.verbForms.filter(obj => {
+      return obj.id === formID
+    })
+  }
+
+  getWrongVerbForms(formID: number): VerbForm[] {
+    return this.verbForms.filter(obj => {
+      return obj.id != formID
+    })
+  }
+
+  checkVerbAnswer(selectedAnswer: string, formID: number): boolean {
+    const currentQuestion = this.getVerbQuestion();
+    const key = this.getVerbForm(formID)[0].key;
+    const isCorrect = currentQuestion[key] === selectedAnswer;
     if (isCorrect) this.correctAnswers++;
     return isCorrect;
   }
@@ -55,7 +95,16 @@ export class QuizService {
     return this.currentQuestionIndex >= this.questions.length - 1;
   }
 
+  isVerbQuizFinished(): boolean {
+    return this.currentQuestionIndex >= this.questionsVerb.length - 1;
+  }
+
   getScore(): number {
     return this.correctAnswers;
+  }
+
+  getRandomForm() {
+    const randomIndex = Math.floor(Math.random() * this.verbForms.length);
+    return this.verbForms[randomIndex];
   }
 }
