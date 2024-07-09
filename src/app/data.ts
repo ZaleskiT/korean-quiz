@@ -768,71 +768,6 @@ export const verbsList: Verbs[] = [
   },
   {
     id: 19,
-    englishWord: 'to be (honorific)',
-    koreanWord: '계시다',
-    chineseWord: '在（敬语）',
-    declarativePresent: '계세요',
-    declarativePast: '계셨어요',
-    declarativeFuture: '계실 거예요',
-    inquisitivePast: '계셨어요',
-    imperative: '계세요',
-    wantTo: '계시고 싶어요',
-    connectiveAnd: '계시고'
-  },
-  {
-    id: 20,
-    englishWord: 'eat (honorific)',
-    koreanWord: '드시다',
-    chineseWord: '吃（敬语）',
-    declarativePresent: '드세요',
-    declarativePast: '드셨어요',
-    declarativeFuture: '드실 거예요',
-    inquisitivePast: '드셨어요',
-    imperative: '드세요',
-    wantTo: '드시고 싶어요',
-    connectiveAnd: '드시고'
-  },
-  {
-    id: 21,
-    englishWord: 'drink (honorific)',
-    koreanWord: '드시다',
-    chineseWord: '喝（敬语）',
-    declarativePresent: '드세요',
-    declarativePast: '드셨어요',
-    declarativeFuture: '드실 거예요',
-    inquisitivePast: '드셨어요',
-    imperative: '드세요',
-    wantTo: '드시고 싶어요',
-    connectiveAnd: '드시고'
-  },
-  {
-    id: 22,
-    englishWord: 'return (honorific)',
-    koreanWord: '돌아가시다',
-    chineseWord: '回去（敬语）',
-    declarativePresent: '돌아가세요',
-    declarativePast: '돌아가셨어요',
-    declarativeFuture: '돌아가실 거예요',
-    inquisitivePast: '돌아가셨어요',
-    imperative: '돌아가세요',
-    wantTo: '돌아가고 싶어요',
-    connectiveAnd: '돌아가고'
-  },
-  {
-    id: 23,
-    englishWord: 'speak (honorific)',
-    koreanWord: '말씀하시다',
-    chineseWord: '说话（敬语）',
-    declarativePresent: '말씀하세요',
-    declarativePast: '말씀하셨어요',
-    declarativeFuture: '말씀하실 거예요',
-    inquisitivePast: '말씀하셨어요',
-    imperative: '말씀하세요',
-    wantTo: '말씀하고 싶어요',
-    connectiveAnd: '말씀하고'
-  },
-  {
-    id: 24,
     englishWord: 'give',
     koreanWord: '주다',
     chineseWord: '给',
@@ -845,7 +780,7 @@ export const verbsList: Verbs[] = [
     connectiveAnd: '주고'
   },
   {
-    id: 25,
+    id: 20,
     englishWord: 'send',
     koreanWord: '보내다',
     chineseWord: '发送',
@@ -858,7 +793,7 @@ export const verbsList: Verbs[] = [
     connectiveAnd: '보내고'
   },
   {
-    id: 26,
+    id: 21,
     englishWord: 'receive',
     koreanWord: '받다',
     chineseWord: '接收',
@@ -871,7 +806,7 @@ export const verbsList: Verbs[] = [
     connectiveAnd: '받고'
   },
   {
-    id: 27,
+    id: 22,
     englishWord: 'invite',
     koreanWord: '초대하다',
     chineseWord: '邀请',
@@ -884,7 +819,7 @@ export const verbsList: Verbs[] = [
     connectiveAnd: '초대하고'
   },
   {
-    id: 28,
+    id: 23,
     englishWord: 'congratulate',
     koreanWord: '축하하다',
     chineseWord: '祝贺',
@@ -897,7 +832,7 @@ export const verbsList: Verbs[] = [
     connectiveAnd: '축하하고'
   },
   {
-    id: 29,
+    id: 24,
     englishWord: 'sing',
     koreanWord: '노래를 부르다',
     chineseWord: '唱歌',
