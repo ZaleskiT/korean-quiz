@@ -18,7 +18,8 @@ export interface Vocabulary {
     L1P8,
     L1P9,
     L1P10,
-    L1P11
+    L1P11,
+    L1P12
   }
   
   export const vocabularyList: Vocabulary[] = [
@@ -498,7 +499,210 @@ export interface Vocabulary {
     { id: 474, categoryId: Category.L1P11, englishWord: 'To feel good', koreanWord: '기분이 좋다', chineseWord: '感觉很好' },
     { id: 475, categoryId: Category.L1P11, englishWord: 'Bouquet', koreanWord: '꽃다발', chineseWord: '花束' },
     { id: 476, categoryId: Category.L1P11, englishWord: 'To make a call', koreanWord: '전화를 하다', chineseWord: '拨打电话' },
-    { id: 477, categoryId: Category.L1P11, englishWord: 'To receive a call', koreanWord: '전화를 받다', chineseWord: '接电话' }
+    { id: 477, categoryId: Category.L1P11, englishWord: 'To receive a call', koreanWord: '전화를 받다', chineseWord: '接电话' },
+    {
+      id: 478,
+      categoryId: Category.L1P12,
+      englishWord: 'Holiday',
+      koreanWord: '휴일',
+      chineseWord: '假日'
+    },
+    {
+      id: 479,
+      categoryId: Category.L1P12,
+      englishWord: 'Play basketball at the park',
+      koreanWord: '공원에서 농구를 하다',
+      chineseWord: '在公园打篮球'
+    },
+    {
+      id: 480,
+      categoryId: Category.L1P12,
+      englishWord: 'Play computer games',
+      koreanWord: '컴퓨터 게임을 하다',
+      chineseWord: '玩电脑游戏'
+    },
+    {
+      id: 481,
+      categoryId: Category.L1P12,
+      englishWord: 'Go on a trip',
+      koreanWord: '여행을 가다',
+      chineseWord: '去旅行'
+    },
+    {
+      id: 482,
+      categoryId: Category.L1P12,
+      englishWord: 'Dine out with family',
+      koreanWord: '가족하고 외식하다',
+      chineseWord: '和家人外出就餐'
+    },
+    {
+      id: 483,
+      categoryId: Category.L1P12,
+      englishWord: 'Go to an amusement park with children',
+      koreanWord: '아이하고 놀이공원에 가다',
+      chineseWord: '带孩子去游乐园'
+    },
+    {
+      id: 484,
+      categoryId: Category.L1P12,
+      englishWord: 'Study Korean hard',
+      koreanWord: '한국어를 열심히 공부하다',
+      chineseWord: '努力学习韩语'
+    },
+    {
+      id: 485,
+      categoryId: Category.L1P12,
+      englishWord: 'Learn Korean cooking',
+      koreanWord: '한국 요리를 배우다',
+      chineseWord: '学做韩国菜'
+    },
+    {
+      id: 486,
+      categoryId: Category.L1P12,
+      englishWord: 'Take a nap',
+      koreanWord: '낮잠을 자다',
+      chineseWord: '午睡'
+    },
+    {
+      id: 487,
+      categoryId: Category.L1P12,
+      englishWord: 'Go to a friend\'s house to play',
+      koreanWord: '친구 집에 놀러 가다',
+      chineseWord: '去朋友家玩'
+    },
+    {
+      id: 488,
+      categoryId: Category.L1P12,
+      englishWord: 'Cultural center',
+      koreanWord: '문화 센터',
+      chineseWord: '文化中心'
+    },
+    {
+      id: 489,
+      categoryId: Category.L1P12,
+      englishWord: 'Vacation',
+      koreanWord: '휴가',
+      chineseWord: '假期'
+    },
+    {
+      id: 490,
+      categoryId: Category.L1P12,
+      englishWord: 'Swimming',
+      koreanWord: '수영을 하다',
+      chineseWord: '游泳'
+    },
+    {
+      id: 491,
+      categoryId: Category.L1P12,
+      englishWord: 'Ride a boat',
+      koreanWord: '배를 타다',
+      chineseWord: '乘船'
+    },
+    {
+      id: 492,
+      categoryId: Category.L1P12,
+      englishWord: 'Go fishing (in the sea)',
+      koreanWord: '(바다) 낚시를 하다',
+      chineseWord: '海钓'
+    },
+    {
+      id: 493,
+      categoryId: Category.L1P12,
+      englishWord: 'Hiking',
+      koreanWord: '등산을 하다',
+      chineseWord: '登山'
+    },
+    {
+      id: 494,
+      categoryId: Category.L1P12,
+      englishWord: 'Camping',
+      koreanWord: '캠핑을 하다',
+      chineseWord: '露营'
+    },
+    {
+      id: 495,
+      categoryId: Category.L1P12,
+      englishWord: 'Floral arrangement',
+      koreanWord: '꽃꽂이를 하다',
+      chineseWord: '插花'
+    },
+    {
+      id: 496,
+      categoryId: Category.L1P12,
+      englishWord: 'Care for animals',
+      koreanWord: '동물을 구경하다',
+      chineseWord: '照顾动物'
+    },
+    {
+      id: 497,
+      categoryId: Category.L1P12,
+      englishWord: 'Ride a roller coaster',
+      koreanWord: '놀이 기구를 타다',
+      chineseWord: '坐过山车'
+    },
+    {
+      id: 498,
+      categoryId: Category.L1P12,
+      englishWord: 'Watch fireworks',
+      koreanWord: '불꽃놀이를 보다',
+      chineseWord: '看烟花'
+    },
+    {
+      id: 499,
+      categoryId: Category.L1P12,
+      englishWord: 'Meet hometown friends',
+      koreanWord: '고향 친구들을 만나다',
+      chineseWord: '见老朋友'
+    },
+    {
+      id: 500,
+      categoryId: Category.L1P12,
+      englishWord: 'Meet parents',
+      koreanWord: '부모님을 만나다',
+      chineseWord: '见父母'
+    },
+    {
+      id: 501,
+      categoryId: Category.L1P12,
+      englishWord: 'Eat hometown food',
+      koreanWord: '고향 음식을 먹다',
+      chineseWord: '吃家乡的食物'
+    },
+    {
+      id: 502,
+      categoryId: Category.L1P12,
+      englishWord: 'Ginseng tea',
+      koreanWord: '인삼차',
+      chineseWord: '人参茶'
+    },
+    {
+      id: 503,
+      categoryId: Category.L1P12,
+      englishWord: 'Cosmetics',
+      koreanWord: '화장품',
+      chineseWord: '化妆品'
+    },
+    {
+      id: 504,
+      categoryId: Category.L1P12,
+      englishWord: 'Relatives',
+      koreanWord: '친척',
+      chineseWord: '亲戚'
+    },
+    {
+      id: 505,
+      categoryId: Category.L1P12,
+      englishWord: 'Quickly',
+      koreanWord: '빨리',
+      chineseWord: '快点'
+    },
+    {
+      id: 506,
+      categoryId: Category.L1P12,
+      englishWord: 'Ansan',
+      koreanWord: '안산',
+      chineseWord: '安山'
+    }
 ];
 
 export interface Verbs {
