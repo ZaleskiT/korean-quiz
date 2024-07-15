@@ -3,7 +3,7 @@ export interface Vocabulary {
   categoryId: Category;
   englishWord: string;
   koreanWord: string;
-  chineseWord: string;  // Add this line
+  chineseWord: string;
 }
   
   export enum Category {
@@ -19,7 +19,8 @@ export interface Vocabulary {
     L1P9,
     L1P10,
     L1P11,
-    L1P12
+    L1P12,
+    L1P13
   }
   
   export const vocabularyList: Vocabulary[] = [
@@ -702,6 +703,153 @@ export interface Vocabulary {
       englishWord: 'Ansan',
       koreanWord: '안산',
       chineseWord: '安山'
+    },
+    {
+      id: 507,
+      categoryId: Category.L1P13,
+      englishWord: 'car',
+      koreanWord: '자동차',
+      chineseWord: '汽车'
+    },
+    {
+      id: 508,
+      categoryId: Category.L1P13,
+      englishWord: 'bus',
+      koreanWord: '버스',
+      chineseWord: '巴士'
+    },
+    {
+      id: 509,
+      categoryId: Category.L1P13,
+      englishWord: 'taxi',
+      koreanWord: '택시',
+      chineseWord: '出租车'
+    },
+    {
+      id: 510,
+      categoryId: Category.L1P13,
+      englishWord: 'bicycle',
+      koreanWord: '자전거',
+      chineseWord: '自行车'
+    },
+    {
+      id: 511,
+      categoryId: Category.L1P13,
+      englishWord: 'subway',
+      koreanWord: '지하철',
+      chineseWord: '地铁'
+    },
+    {
+      id: 512,
+      categoryId: Category.L1P13,
+      englishWord: 'motorcycle',
+      koreanWord: '오토바이',
+      chineseWord: '摩托车'
+    },
+    {
+      id: 513,
+      categoryId: Category.L1P13,
+      englishWord: 'stop/station',
+      koreanWord: '정류장',
+      chineseWord: '车站'
+    },
+    {
+      id: 514,
+      categoryId: Category.L1P13,
+      englishWord: 'airport',
+      koreanWord: '공항',
+      chineseWord: '机场'
+    },
+    {
+      id: 515,
+      categoryId: Category.L1P13,
+      englishWord: 'airplane',
+      koreanWord: '비행기',
+      chineseWord: '飞机'
+    },
+    {
+      id: 516,
+      categoryId: Category.L1P13,
+      englishWord: 'subway station',
+      koreanWord: '지하철역',
+      chineseWord: '地铁站'
+    },
+    {
+      id: 517,
+      categoryId: Category.L1P13,
+      englishWord: 'train station',
+      koreanWord: '기차역',
+      chineseWord: '火车站'
+    },
+    {
+      id: 518,
+      categoryId: Category.L1P13,
+      englishWord: 'train',
+      koreanWord: '기차',
+      chineseWord: '火车'
+    },
+    {
+      id: 519,
+      categoryId: Category.L1P13,
+      englishWord: 'express bus terminal',
+      koreanWord: '고속버스 터미널',
+      chineseWord: '高速巴士客运站'
+    },
+    {
+      id: 520,
+      categoryId: Category.L1P13,
+      englishWord: 'express bus',
+      koreanWord: '고속버스',
+      chineseWord: '高速巴士'
+    },
+    {
+      id: 521,
+      categoryId: Category.L1P13,
+      englishWord: 'transfer',
+      koreanWord: '환전하다',
+      chineseWord: '换乘'
+    },
+    {
+      id: 522,
+      categoryId: Category.L1P13,
+      englishWord: 'sofo',
+      koreanWord: '소포',
+      chineseWord: '包裹'
+    },
+    {
+      id: 523,
+      categoryId: Category.L1P13,
+      englishWord: 'Namsan',
+      koreanWord: '남산',
+      chineseWord: '南山'
+    },
+    {
+      id: 524,
+      categoryId: Category.L1P13,
+      englishWord: 'tired',
+      koreanWord: '힘들다',
+      chineseWord: '累'
+    },
+    {
+      id: 525,
+      categoryId: Category.L1P13,
+      englishWord: 'Namsan Seoul Tower',
+      koreanWord: '남산 서울 타워',
+      chineseWord: '南山首尔塔'
+    },
+    {
+      id: 526,
+      categoryId: Category.L1P13,
+      englishWord: 'observatory',
+      koreanWord: '전망대',
+      chineseWord: '展望台'
+    },
+    {
+      id: 527,
+      categoryId: Category.L1P13,
+      englishWord: 'cable car',
+      koreanWord: '케이블카',
+      chineseWord: '缆车'
     }
 ];
 
