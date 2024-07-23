@@ -20,7 +20,9 @@ export interface Vocabulary {
     L1P10,
     L1P11,
     L1P12,
-    L1P13
+    L1P13,
+    L1P14,
+    L1P15
   }
   
   export const vocabularyList: Vocabulary[] = [
@@ -707,112 +709,112 @@ export interface Vocabulary {
     {
       id: 507,
       categoryId: Category.L1P13,
-      englishWord: 'car',
+      englishWord: 'Car',
       koreanWord: '자동차',
       chineseWord: '汽车'
     },
     {
       id: 508,
       categoryId: Category.L1P13,
-      englishWord: 'bus',
+      englishWord: 'Bus',
       koreanWord: '버스',
       chineseWord: '巴士'
     },
     {
       id: 509,
       categoryId: Category.L1P13,
-      englishWord: 'taxi',
+      englishWord: 'Taxi',
       koreanWord: '택시',
       chineseWord: '出租车'
     },
     {
       id: 510,
       categoryId: Category.L1P13,
-      englishWord: 'bicycle',
+      englishWord: 'Bicycle',
       koreanWord: '자전거',
       chineseWord: '自行车'
     },
     {
       id: 511,
       categoryId: Category.L1P13,
-      englishWord: 'subway',
+      englishWord: 'Subway',
       koreanWord: '지하철',
       chineseWord: '地铁'
     },
     {
       id: 512,
       categoryId: Category.L1P13,
-      englishWord: 'motorcycle',
+      englishWord: 'Motorcycle',
       koreanWord: '오토바이',
       chineseWord: '摩托车'
     },
     {
       id: 513,
       categoryId: Category.L1P13,
-      englishWord: 'stop/station',
+      englishWord: 'Stop/station',
       koreanWord: '정류장',
       chineseWord: '车站'
     },
     {
       id: 514,
       categoryId: Category.L1P13,
-      englishWord: 'airport',
+      englishWord: 'Airport',
       koreanWord: '공항',
       chineseWord: '机场'
     },
     {
       id: 515,
       categoryId: Category.L1P13,
-      englishWord: 'airplane',
+      englishWord: 'Airplane',
       koreanWord: '비행기',
       chineseWord: '飞机'
     },
     {
       id: 516,
       categoryId: Category.L1P13,
-      englishWord: 'subway station',
+      englishWord: 'Subway station',
       koreanWord: '지하철역',
       chineseWord: '地铁站'
     },
     {
       id: 517,
       categoryId: Category.L1P13,
-      englishWord: 'train station',
+      englishWord: 'Train station',
       koreanWord: '기차역',
       chineseWord: '火车站'
     },
     {
       id: 518,
       categoryId: Category.L1P13,
-      englishWord: 'train',
+      englishWord: 'Train',
       koreanWord: '기차',
       chineseWord: '火车'
     },
     {
       id: 519,
       categoryId: Category.L1P13,
-      englishWord: 'express bus terminal',
+      englishWord: 'Express bus terminal',
       koreanWord: '고속버스 터미널',
       chineseWord: '高速巴士客运站'
     },
     {
       id: 520,
       categoryId: Category.L1P13,
-      englishWord: 'express bus',
+      englishWord: 'Express bus',
       koreanWord: '고속버스',
       chineseWord: '高速巴士'
     },
     {
       id: 521,
       categoryId: Category.L1P13,
-      englishWord: 'transfer',
+      englishWord: 'Transfer',
       koreanWord: '환전하다',
       chineseWord: '换乘'
     },
     {
       id: 522,
       categoryId: Category.L1P13,
-      englishWord: 'sofo',
+      englishWord: 'Package',
       koreanWord: '소포',
       chineseWord: '包裹'
     },
@@ -826,7 +828,7 @@ export interface Vocabulary {
     {
       id: 524,
       categoryId: Category.L1P13,
-      englishWord: 'tired',
+      englishWord: 'Tired',
       koreanWord: '힘들다',
       chineseWord: '累'
     },
@@ -840,16 +842,338 @@ export interface Vocabulary {
     {
       id: 526,
       categoryId: Category.L1P13,
-      englishWord: 'observatory',
+      englishWord: 'Observatory',
       koreanWord: '전망대',
       chineseWord: '展望台'
     },
     {
       id: 527,
       categoryId: Category.L1P13,
-      englishWord: 'cable car',
+      englishWord: 'Cable car',
       koreanWord: '케이블카',
       chineseWord: '缆车'
+    },
+    {
+      id: 528,
+      categoryId: Category.L1P14,
+      englishWord: 'Meeting',
+      koreanWord: '모임',
+      chineseWord: '会议'
+    },
+    {
+      id: 529,
+      categoryId: Category.L1P14,
+      englishWord: 'Work meeting',
+      koreanWord: '직장 모임',
+      chineseWord: '工作会议'
+    },
+    {
+      id: 530,
+      categoryId: Category.L1P14,
+      englishWord: 'To promise',
+      koreanWord: '약속하다',
+      chineseWord: '承诺'
+    },
+    {
+      id: 531,
+      categoryId: Category.L1P14,
+      englishWord: 'To keep a promise',
+      koreanWord: '약속을 지키다',
+      chineseWord: '守约'
+    },
+    {
+      id: 532,
+      categoryId: Category.L1P14,
+      englishWord: 'To set a time for a promise',
+      koreanWord: '약속 시간을 정하다',
+      chineseWord: '定时间'
+    },
+    {
+      id: 533,
+      categoryId: Category.L1P14,
+      englishWord: 'To set a place for a promise',
+      koreanWord: '약속 장소를 정하다',
+      chineseWord: '定地点'
+    },
+    {
+      id: 534,
+      categoryId: Category.L1P14,
+      englishWord: 'To change the place of a promise',
+      koreanWord: '약속 장소를 바꾸다',
+      chineseWord: '改地点'
+    },
+    {
+      id: 535,
+      categoryId: Category.L1P14,
+      englishWord: 'To be late for a promise',
+      koreanWord: '약속 시간에 늦다',
+      chineseWord: '迟到'
+    },
+    {
+      id: 536,
+      categoryId: Category.L1P14,
+      englishWord: 'To have a lot of work',
+      koreanWord: '일이 많다',
+      chineseWord: '工作多'
+    },
+    {
+      id: 537,
+      categoryId: Category.L1P14,
+      englishWord: 'To work night shift',
+      koreanWord: '야근을 하다',
+      chineseWord: '上夜班'
+    },
+    {
+      id: 538,
+      categoryId: Category.L1P14,
+      englishWord: 'To have a company dinner',
+      koreanWord: '회식이 있다',
+      chineseWord: '有公司聚餐'
+    },
+    {
+      id: 539,
+      categoryId: Category.L1P14,
+      englishWord: 'To be sick',
+      koreanWord: '몸이 아프다',
+      chineseWord: '身体不舒服'
+    },
+    {
+      id: 540,
+      categoryId: Category.L1P14,
+      englishWord: 'To have a family gathering',
+      koreanWord: '가족 모임이 있다',
+      chineseWord: '有家庭聚会'
+    },
+    {
+      id: 541,
+      categoryId: Category.L1P14,
+      englishWord: 'To have an exam',
+      koreanWord: '시험이 있다',
+      chineseWord: '有考试'
+    },
+    {
+      id: 542,
+      categoryId: Category.L1P14,
+      englishWord: 'To have an urgent matter',
+      koreanWord: '갑자기 일이 생기다',
+      chineseWord: '突然有事'
+    },
+    {
+      id: 543,
+      categoryId: Category.L1P14,
+      englishWord: 'To cancel a meeting',
+      koreanWord: '회식을 하다',
+      chineseWord: '取消会议'
+    },
+    {
+      id: 544,
+      categoryId: Category.L1P14,
+      englishWord: 'To reply',
+      koreanWord: '답장하다',
+      chineseWord: '回复'
+    },
+    {
+      id: 545,
+      categoryId: Category.L1P14,
+      englishWord: 'New',
+      koreanWord: '새',
+      chineseWord: '新的'
+    },
+    {
+      id: 546,
+      categoryId: Category.L1P14,
+      englishWord: 'First birthday party',
+      koreanWord: '돌잔치',
+      chineseWord: '周岁宴'
+    },
+    {
+      id: 547,
+      categoryId: Category.L1P14,
+      englishWord: 'Work overtime',
+      koreanWord: '야근하다',
+      chineseWord: '加班'
+    },
+    {
+      id: 548,
+      categoryId: Category.L1P14,
+      englishWord: 'Sorry',
+      koreanWord: '미안하다',
+      chineseWord: '对不起'
+    },
+    {
+      id: 549,
+      categoryId: Category.L1P15,
+      englishWord: 'Weather',
+      koreanWord: '날씨',
+      chineseWord: '天气'
+    },
+    {
+      id: 550,
+      categoryId: Category.L1P15,
+      englishWord: 'Season',
+      koreanWord: '계절',
+      chineseWord: '季节'
+    },
+    {
+      id: 551,
+      categoryId: Category.L1P15,
+      englishWord: 'Spring',
+      koreanWord: '봄',
+      chineseWord: '春天'
+    },
+    {
+      id: 552,
+      categoryId: Category.L1P15,
+      englishWord: 'Summer',
+      koreanWord: '여름',
+      chineseWord: '夏天'
+    },
+    {
+      id: 553,
+      categoryId: Category.L1P15,
+      englishWord: 'Fall/autumn',
+      koreanWord: '가을',
+      chineseWord: '秋天'
+    },
+    {
+      id: 554,
+      categoryId: Category.L1P15,
+      englishWord: 'Winter',
+      koreanWord: '겨울',
+      chineseWord: '冬天'
+    },
+    {
+      id: 555,
+      categoryId: Category.L1P15,
+      englishWord: 'Warm',
+      koreanWord: '따뜻하다',
+      chineseWord: '温暖'
+    },
+    {
+      id: 556,
+      categoryId: Category.L1P15,
+      englishWord: 'Hot',
+      koreanWord: '덥다',
+      chineseWord: '热'
+    },
+    {
+      id: 557,
+      categoryId: Category.L1P15,
+      englishWord: 'Chilly',
+      koreanWord: '쌀쌀하다',
+      chineseWord: '凉'
+    },
+    {
+      id: 558,
+      categoryId: Category.L1P15,
+      englishWord: 'Cold',
+      koreanWord: '춥다',
+      chineseWord: '冷'
+    },
+    {
+      id: 559,
+      categoryId: Category.L1P15,
+      englishWord: 'Many flowers bloom',
+      koreanWord: '꽃이 많이 피다',
+      chineseWord: '花开了很多'
+    },
+    {
+      id: 560,
+      categoryId: Category.L1P15,
+      englishWord: 'Sea',
+      koreanWord: '바닷가',
+      chineseWord: '海边'
+    },
+    {
+      id: 561,
+      categoryId: Category.L1P15,
+      englishWord: 'Fall foliage is beautiful',
+      koreanWord: '단풍이 아름답다',
+      chineseWord: '枫叶很美'
+    },
+    {
+      id: 562,
+      categoryId: Category.L1P15,
+      englishWord: 'To ride a snowboard',
+      koreanWord: '눈썰매를 타다',
+      chineseWord: '滑雪'
+    },
+    {
+      id: 563,
+      categoryId: Category.L1P15,
+      englishWord: 'Clear',
+      koreanWord: '맑다',
+      chineseWord: '晴朗'
+    },
+    {
+      id: 564,
+      categoryId: Category.L1P15,
+      englishWord: 'Cloudy',
+      koreanWord: '흐리다',
+      chineseWord: '多云'
+    },
+    {
+      id: 565,
+      categoryId: Category.L1P15,
+      englishWord: 'To rain',
+      koreanWord: '비가 오다',
+      chineseWord: '下雨'
+    },
+    {
+      id: 566,
+      categoryId: Category.L1P15,
+      englishWord: 'To snow',
+      koreanWord: '눈이 오다',
+      chineseWord: '下雪'
+    },
+    {
+      id: 567,
+      categoryId: Category.L1P15,
+      englishWord: 'Fog forms',
+      koreanWord: '안개가 끼다',
+      chineseWord: '起雾'
+    },
+    {
+      id: 568,
+      categoryId: Category.L1P15,
+      englishWord: 'Wind blows',
+      koreanWord: '바람이 불다',
+      chineseWord: '刮风'
+    },
+    {
+      id: 569,
+      categoryId: Category.L1P15,
+      englishWord: 'Thunder/lightning strikes',
+      koreanWord: '천둥/번개가 치다',
+      chineseWord: '打雷/闪电'
+    },
+    {
+      id: 570,
+      categoryId: Category.L1P15,
+      englishWord: 'Population',
+      koreanWord: '인구',
+      chineseWord: '人口'
+    },
+    {
+      id: 571,
+      categoryId: Category.L1P15,
+      englishWord: 'Four seasons',
+      koreanWord: '사계절',
+      chineseWord: '四季'
+    },
+    {
+      id: 572,
+      categoryId: Category.L1P15,
+      englishWord: 'Very',
+      koreanWord: '매우',
+      chineseWord: '非常'
+    },
+    {
+      id: 573,
+      categoryId: Category.L1P15,
+      englishWord: 'To ski',
+      koreanWord: '스키를 타다',
+      chineseWord: '滑雪'
     }
 ];
 
