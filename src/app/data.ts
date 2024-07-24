@@ -22,7 +22,8 @@ export interface Vocabulary {
     L1P12,
     L1P13,
     L1P14,
-    L1P15
+    L1P15,
+    L1P16
   }
   
   export const vocabularyList: Vocabulary[] = [
@@ -1174,6 +1175,153 @@ export interface Vocabulary {
       englishWord: 'To ski',
       koreanWord: '스키를 타다',
       chineseWord: '滑雪'
+    },
+    {
+      id: 574,
+      categoryId: Category.L1P16,
+      englishWord: 'Eye',
+      koreanWord: '눈',
+      chineseWord: '眼睛'
+    },
+    {
+      id: 575,
+      categoryId: Category.L1P16,
+      englishWord: 'Nose',
+      koreanWord: '코',
+      chineseWord: '鼻子'
+    },
+    {
+      id: 576,
+      categoryId: Category.L1P16,
+      englishWord: 'Ear',
+      koreanWord: '귀',
+      chineseWord: '耳朵'
+    },
+    {
+      id: 577,
+      categoryId: Category.L1P16,
+      englishWord: 'Mouth',
+      koreanWord: '입',
+      chineseWord: '嘴巴'
+    },
+    {
+      id: 578,
+      categoryId: Category.L1P16,
+      englishWord: 'neck',
+      koreanWord: '목',
+      chineseWord: '脖子'
+    },
+    {
+      id: 579,
+      categoryId: Category.L1P16,
+      englishWord: 'Arm',
+      koreanWord: '팔',
+      chineseWord: '手臂'
+    },
+    {
+      id: 580,
+      categoryId: Category.L1P16,
+      englishWord: 'Waist',
+      koreanWord: '허리',
+      chineseWord: '腰'
+    },
+    {
+      id: 581,
+      categoryId: Category.L1P16,
+      englishWord: 'Stomach',
+      koreanWord: '배',
+      chineseWord: '肚子'
+    },
+    {
+      id: 582,
+      categoryId: Category.L1P16,
+      englishWord: 'Hand',
+      koreanWord: '손',
+      chineseWord: '手'
+    },
+    {
+      id: 583,
+      categoryId: Category.L1P16,
+      englishWord: 'Leg',
+      koreanWord: '다리',
+      chineseWord: '腿'
+    },
+    {
+      id: 584,
+      categoryId: Category.L1P16,
+      englishWord: 'Knee',
+      koreanWord: '무릎',
+      chineseWord: '膝盖'
+    },
+    {
+      id: 585,
+      categoryId: Category.L1P16,
+      englishWord: 'Foot',
+      koreanWord: '발',
+      chineseWord: '脚'
+    },
+    {
+      id: 586,
+      categoryId: Category.L1P16,
+      englishWord: 'Internal medicine',
+      koreanWord: '내과',
+      chineseWord: '内科'
+    },
+    {
+      id: 587,
+      categoryId: Category.L1P16,
+      englishWord: 'Ear, nose, throat clinic',
+      koreanWord: '이비인후과',
+      chineseWord: '耳鼻喉科'
+    },
+    {
+      id: 588,
+      categoryId: Category.L1P16,
+      englishWord: 'Plastic surgery',
+      koreanWord: '정형외과',
+      chineseWord: '整形外科'
+    },
+    {
+      id: 589,
+      categoryId: Category.L1P16,
+      englishWord: 'Ophthalmology',
+      koreanWord: '안과',
+      chineseWord: '眼科'
+    },
+    {
+      id: 590,
+      categoryId: Category.L1P16,
+      englishWord: 'Dentistry',
+      koreanWord: '치과',
+      chineseWord: '牙科'
+    },
+    {
+      id: 591,
+      categoryId: Category.L1P16,
+      englishWord: 'Broken leg',
+      koreanWord: '다리가 부러지다',
+      chineseWord: '腿断了'
+    },
+    {
+      id: 592,
+      categoryId: Category.L1P16,
+      englishWord: 'Ginger tea',
+      koreanWord: '생강차',
+      chineseWord: '姜茶'
+    },
+    {
+      id: 593,
+      categoryId: Category.L1P16,
+      englishWord: 'Vitamin C',
+      koreanWord: '비타민 C',
+      chineseWord: '维生素C'
+    },
+    {
+      id: 594,
+      categoryId: Category.L1P16,
+      englishWord: 'To rest well',
+      koreanWord: '푹 쉬다',
+      chineseWord: '好好休息'
     }
 ];
 
